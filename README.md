@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tunç Erdoğanlar — Portfolio
 
-## Getting Started
+Bilingual (TR/EN), SEO-focused personal portfolio built with the Next.js App Router.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router) + **TypeScript** (strict)
+- **Tailwind CSS v4** — design tokens as CSS variables in `globals.css`
+- **next-intl** — `/en` and `/tr` routes, default `en`, all copy in `messages/*.json`
+- **Framer Motion** — scroll reveals + hero stagger (respects `prefers-reduced-motion`)
+- Self-hosted **Clash Display** (Fontshare) + **Geist** / **Geist Mono**
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000  (redirects to /en)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Other scripts:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build    # production build — run before deploying
+npm run lint     # eslint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project layout
 
-## Learn More
+```
+src/
+├── app/[locale]/      # localized layout + page (root layout lives here)
+├── app/sitemap.ts     # /sitemap.xml (both locales + hreflang)
+├── app/robots.ts      # /robots.txt
+├── components/        # Hero, About, Experience, Projects, Skills, Contact, Footer, …
+├── i18n/              # next-intl routing + request config
+├── lib/profile.ts     # contact links, accent rotation, SITE_URL
+└── proxy.ts           # next-intl middleware (Next 16 "proxy" convention)
+messages/{en,tr}.json  # all UI copy — no hardcoded strings in components
+public/                # cv.pdf, og.png
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Editing content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Text**: edit `messages/en.json` and `messages/tr.json` (keep keys in sync).
+- **CV**: replace `public/cv.pdf` with an updated export (the "Download CV" button links to `/cv.pdf`).
+- **Projects / experience / skills**: update the matching namespace in both message files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Environment
 
-## Deploy on Vercel
+| Variable | Purpose | Example |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Canonical origin used by metadata, Open Graph, sitemap, robots | `https://your-domain.com` |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If unset, it falls back to `https://tunc-erdoganlar.vercel.app`. Set the real value on Vercel once the domain is known.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploying to Vercel
+
+1. Push this repo to GitHub.
+2. In Vercel, **Add New → Project** and import the GitHub repo. Framework preset: **Next.js** (auto-detected; defaults are correct).
+3. Add the environment variable `NEXT_PUBLIC_SITE_URL` (your production URL).
+4. Deploy. Future pushes to the default branch redeploy automatically.

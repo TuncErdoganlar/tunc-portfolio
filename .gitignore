@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project: CV kaynağı repoya gerek yok — site public/cv.pdf'i sunar
+# (repoda tutmak istersen bu satırı sil)
+/*.docx
+
+# yerel araç çıktıları (Playwright vb.)
+/.playwright-mcp/

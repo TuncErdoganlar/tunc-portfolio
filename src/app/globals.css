@@ -1,26 +1,68 @@
 @import "tailwindcss";
 
+/* CLAUDE.md tasarım token'ları (light tema) */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #FBFAF7;        /* sıcak kırık beyaz */
+  --bg-alt: #F3F1EC;    /* section alternasyonu */
+  --ink: #16151A;       /* ana metin, neredeyse siyah */
+  --ink-soft: #57555F;  /* ikincil metin */
+  --primary: #4F46E5;   /* indigo — ana accent */
+  --coral: #F97362;     /* sıcak pop */
+  --teal: #0EA5A0;
+  --amber: #F59E0B;
+  --line: rgba(22, 21, 26, 0.1); /* ince ayraçlar */
 }
 
+/* Token'ları Tailwind v4 utility'lerine bağla (bg-bg, text-ink, border-line, font-display, ...) */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-bg: var(--bg);
+  --color-bg-alt: var(--bg-alt);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-primary: var(--primary);
+  --color-coral: var(--coral);
+  --color-teal: var(--teal);
+  --color-amber: var(--amber);
+  --color-line: var(--line);
+
+  --font-display: var(--font-clash-display);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Anchor atlamada sticky navbar başlığı örtmesin */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Erişilebilirlik: klavye odağında görünür, markaya uygun ring */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Erişilebilirlik: hareket azaltma tercihine saygı göster */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

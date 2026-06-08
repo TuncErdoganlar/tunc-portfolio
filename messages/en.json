@@ -1,0 +1,111 @@
+{
+  "Meta": {
+    "title": "Tunç Erdoğanlar — Full-stack Developer",
+    "description": "Full-stack developer based in İzmir, Türkiye. Web & mobile applications, internships and projects — building meaningful work end to end.",
+    "ogAlt": "Tunç Erdoğanlar — Full-stack Developer"
+  },
+  "Nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Change language",
+    "skipToContent": "Skip to content"
+  },
+  "Hero": {
+    "role": "Full-stack Developer",
+    "tagline": "I build web and mobile applications end to end — and I love picking up new technologies along the way.",
+    "location": "İzmir, Türkiye",
+    "downloadCv": "Download CV",
+    "emailMe": "Email me"
+  },
+  "About": {
+    "title": "About",
+    "body": "Full-stack developer with a solid understanding of web development and a passion for learning new technologies. Hands-on experience from personal projects and internships, seeking a collaborative environment to contribute to meaningful work."
+  },
+  "Experience": {
+    "title": "Experience",
+    "databoss": {
+      "company": "DataBoss",
+      "role": "Software Engineering Intern",
+      "date": "Sep 2025 – Jan 2026",
+      "points": [
+        "Developed a native (Google-independent) Speech-to-Text application for Android in Android Studio."
+      ]
+    },
+    "mycro": {
+      "company": "MYCRO",
+      "role": "Software Engineering Intern",
+      "date": "Jun – Jul 2025",
+      "points": [
+        "Worked on Microsoft SQL database systems.",
+        "Built a physiotherapy appointment web application with ASP.NET Core 6.0 in Visual Studio 2022."
+      ]
+    },
+    "vcally": {
+      "company": "VCAlly Startup Studio",
+      "role": "CustomERP Co-founder · Best Application Award",
+      "date": "2026",
+      "points": [
+        "Built an AI-powered \"assembly engine\" that turns a business description into an executable, custom ERP."
+      ]
+    }
+  },
+  "Projects": {
+    "title": "Projects",
+    "customerp": {
+      "name": "CustomERP",
+      "meta": "2026 · Ankara",
+      "subtitle": "Bilkent CTIS Graduation Project",
+      "description": "An AI-powered engine that generates an executable, custom ERP from a business description. Won the \"Best Application\" award at VCAlly Startup Studio.",
+      "tags": ["AI", "ERP", "Full-stack"]
+    },
+    "fabric": {
+      "name": "Heat Resistant Fabric",
+      "meta": "2019 · İzmir",
+      "subtitle": "Ege University · Dept. of Chemical Engineering",
+      "description": "Research & development project on heat-resistant fabric.",
+      "tags": ["R&D", "Materials"]
+    }
+  },
+  "Skills": {
+    "title": "Skills",
+    "languages": {
+      "title": "Languages",
+      "items": ["C", "C#", "Java", "JavaScript", "Python", "PHP", "HTML", "CSS"]
+    },
+    "frontend": {
+      "title": "Frontend",
+      "items": ["React.js", "jQuery", "HTML/CSS"]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": ["Node.js", "ASP.NET Core"]
+    },
+    "database": {
+      "title": "Database",
+      "items": ["MySQL", "MS Access"]
+    },
+    "certificates": {
+      "title": "Certificates",
+      "items": ["HackerRank Basic SQL", "CCNA-1 (networking fundamentals)"]
+    },
+    "spoken": {
+      "title": "Spoken languages",
+      "items": ["Turkish (native)", "English (IELTS 7)", "German (A2.2 — Goethe-Institut İzmir)"]
+    }
+  },
+  "Contact": {
+    "title": "Let's work together",
+    "body": "I'm open to collaborative roles and meaningful projects. The fastest way to reach me is by email.",
+    "emailCta": "Say hello",
+    "or": "or find me on"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "Meta": {
+    "title": "Tunç Erdoğanlar — Full-stack Developer",
+    "description": "İzmir, Türkiye'de yaşayan full-stack geliştirici. Web & mobil uygulamalar, stajlar ve projeler — anlamlı işleri baştan sona geliştiriyorum.",
+    "ogAlt": "Tunç Erdoğanlar — Full-stack Developer"
+  },
+  "Nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "switchLanguage": "Dili değiştir",
+    "skipToContent": "İçeriğe geç"
+  },
+  "Hero": {
+    "role": "Full-stack Developer",
+    "tagline": "Web ve mobil uygulamaları baştan sona geliştiriyorum — ve yol boyunca yeni teknolojiler öğrenmeye bayılıyorum.",
+    "location": "İzmir, Türkiye",
+    "downloadCv": "CV indir",
+    "emailMe": "E-posta gönder"
+  },
+  "About": {
+    "title": "Hakkımda",
+    "body": "Web geliştirme konusunda sağlam bir temele ve yeni teknolojiler öğrenmeye tutkulu bir full-stack geliştirici. Kişisel projeler ve stajlardan pratik deneyim; anlamlı projelere katkı sunabileceği işbirlikçi bir ortam arıyor."
+  },
+  "Experience": {
+    "title": "Deneyim",
+    "databoss": {
+      "company": "DataBoss",
+      "role": "Yazılım Mühendisliği Stajyeri",
+      "date": "Eyl 2025 – Oca 2026",
+      "points": [
+        "Android için yerel (Google araçlarına bağlı olmayan) bir Speech-to-Text uygulaması geliştirdi (Android Studio)."
+      ]
+    },
+    "mycro": {
+      "company": "MYCRO",
+      "role": "Yazılım Mühendisliği Stajyeri",
+      "date": "Haz – Tem 2025",
+      "points": [
+        "Microsoft SQL veritabanı sistemleri üzerinde çalıştı.",
+        "ASP.NET Core 6.0 ile fizyoterapi randevu web uygulaması geliştirdi (Visual Studio 2022)."
+      ]
+    },
+    "vcally": {
+      "company": "VCAlly Startup Studio",
+      "role": "CustomERP Eş-Kurucu · Best Application Ödülü",
+      "date": "2026",
+      "points": [
+        "Bir iş tanımını çalıştırılabilir, özel bir ERP'ye dönüştüren yapay zeka destekli bir \"assembly engine\" geliştirdi."
+      ]
+    }
+  },
+  "Projects": {
+    "title": "Projeler",
+    "customerp": {
+      "name": "CustomERP",
+      "meta": "2026 · Ankara",
+      "subtitle": "Bilkent CTIS Bitirme Projesi",
+      "description": "Bir iş tanımından çalıştırılabilir, özel bir ERP üreten yapay zeka destekli motor. VCAlly Startup Studio'da \"Best Application\" ödülünü kazandı.",
+      "tags": ["Yapay Zeka", "ERP", "Full-stack"]
+    },
+    "fabric": {
+      "name": "Isıya Dayanıklı Kumaş",
+      "meta": "2019 · İzmir",
+      "subtitle": "Ege Üniversitesi · Kimya Mühendisliği Bölümü",
+      "description": "Isıya dayanıklı kumaş üzerine araştırma & geliştirme projesi.",
+      "tags": ["Ar-Ge", "Malzeme"]
+    }
+  },
+  "Skills": {
+    "title": "Yetenekler",
+    "languages": {
+      "title": "Diller",
+      "items": ["C", "C#", "Java", "JavaScript", "Python", "PHP", "HTML", "CSS"]
+    },
+    "frontend": {
+      "title": "Frontend",
+      "items": ["React.js", "jQuery", "HTML/CSS"]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": ["Node.js", "ASP.NET Core"]
+    },
+    "database": {
+      "title": "Veritabanı",
+      "items": ["MySQL", "MS Access"]
+    },
+    "certificates": {
+      "title": "Sertifikalar",
+      "items": ["HackerRank Basic SQL", "CCNA-1 (ağ temelleri)"]
+    },
+    "spoken": {
+      "title": "Konuşulan diller",
+      "items": ["Türkçe (anadil)", "İngilizce (IELTS 7)", "Almanca (A2.2 — Goethe-Institut İzmir)"]
+    }
+  },
+  "Contact": {
+    "title": "Birlikte çalışalım",
+    "body": "İşbirlikçi rollere ve anlamlı projelere açığım. Bana ulaşmanın en hızlı yolu e-posta.",
+    "emailCta": "Merhaba de",
+    "or": "ya da beni şurada bul"
+  },
+  "Footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "builtWith": "Next.js & Tailwind CSS ile geliştirildi"
+  }
+}
