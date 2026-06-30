@@ -1,14 +1,15 @@
 {
   "Meta": {
-    "title": "Tunç Erdoğanlar — Full-stack Developer",
-    "description": "Full-stack developer based in İzmir, Türkiye. Web & mobile applications, internships and projects — building meaningful work end to end.",
-    "ogAlt": "Tunç Erdoğanlar — Full-stack Developer"
+    "title": "Tunç Erdoğanlar, Full-stack Developer",
+    "description": "Full-stack developer based in İzmir, Türkiye. I build web and mobile applications, with experience from internships and personal projects.",
+    "ogAlt": "Tunç Erdoğanlar, Full-stack Developer"
   },
   "Nav": {
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
     "skills": "Skills",
+    "hobbies": "Interests",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -17,14 +18,14 @@
   },
   "Hero": {
     "role": "Full-stack Developer",
-    "tagline": "I build web and mobile applications end to end — and I love picking up new technologies along the way.",
+    "tagline": "I build web and mobile applications end to end, and I enjoy learning new tools as I go.",
     "location": "İzmir, Türkiye",
     "downloadCv": "Download CV",
     "emailMe": "Email me"
   },
   "About": {
     "title": "About",
-    "body": "Full-stack developer with a solid understanding of web development and a passion for learning new technologies. Hands-on experience from personal projects and internships, seeking a collaborative environment to contribute to meaningful work."
+    "body": "Full-stack developer with a solid grounding in web development. I like learning new technologies, and most of my experience so far comes from internships and personal projects. I'm looking for a collaborative team to build useful things with."
   },
   "Experience": {
     "title": "Experience",
@@ -95,7 +96,25 @@
     },
     "spoken": {
       "title": "Spoken languages",
-      "items": ["Turkish (native)", "English (IELTS 7)", "German (A2.2 — Goethe-Institut İzmir)"]
+      "items": ["Turkish (native)", "English (Proficient, IELTS 7)", "German (A2.2, Goethe-Institut İzmir)"]
+    }
+  },
+  "Hobbies": {
+    "title": "Interests",
+    "sailing": {
+      "tag": "Sailing",
+      "title": "Competitive racing",
+      "body": "I raced competitively for years in the Optimist and Laser 4.7 classes, including regattas abroad.",
+      "highlights": [
+        "Optimist · Lake Garda, Italy · 2016",
+        "Optimist · Qatar · 2013",
+        "Laser 4.7 · İzmir Provincial Championship, 3rd place"
+      ]
+    },
+    "fitness": {
+      "tag": "Fitness",
+      "title": "Strength training",
+      "body": "Staying active and in shape when I'm off the water."
     }
   },
   "Contact": {

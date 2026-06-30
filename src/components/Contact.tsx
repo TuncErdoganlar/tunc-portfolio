@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-bg-alt">
       <div className="mx-auto max-w-[1120px] px-5 py-20 md:px-12 md:py-28">
-        <SectionHeading index="05" title={t('title')} />
+        <SectionHeading index="06" title={t('title')} />
 
         <Reveal>
           <div className="max-w-3xl">
