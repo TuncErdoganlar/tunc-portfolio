@@ -3,7 +3,8 @@ import SectionHeading from './SectionHeading';
 import {Reveal} from './Motion';
 import {accentAt, accentClasses} from '@/lib/profile';
 
-const ITEMS = ['databoss', 'mycro', 'vcally'] as const;
+// En yeniden eskiye doğru kronolojik sıra (vcally 2026 → databoss Eyl 2025–Oca 2026 → mycro Haz–Tem 2025)
+const ITEMS = ['vcally', 'databoss', 'mycro'] as const;
 
 export default function Experience() {
   const t = useTranslations('Experience');
