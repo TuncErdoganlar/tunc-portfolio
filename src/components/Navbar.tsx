@@ -5,7 +5,7 @@ import {useTranslations} from 'next-intl';
 import {Link} from '@/i18n/routing';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const SECTIONS = ['about', 'experience', 'projects', 'skills', 'hobbies', 'contact'] as const;
+const SECTIONS = ['about', 'experience', 'projects', 'education', 'current', 'skills', 'hobbies', 'contact'] as const;
 
 export default function Navbar() {
   const t = useTranslations('Nav');

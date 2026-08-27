@@ -8,6 +8,8 @@
     "about": "Hakkımda",
     "experience": "Deneyim",
     "projects": "Projeler",
+    "education": "Eğitim",
+    "current": "Bu Dönem",
     "skills": "Yetenekler",
     "hobbies": "Hobiler",
     "contact": "İletişim",
@@ -25,7 +27,7 @@
   },
   "About": {
     "title": "Hakkımda",
-    "body": "Web geliştirme konusunda sağlam bir temeli olan bir full-stack geliştiriciyim. Yeni teknolojiler öğrenmeyi seviyorum ve şimdiye kadarki deneyimim çoğunlukla stajlardan ve kişisel projelerden geliyor. Birlikte faydalı işler çıkarabileceğim, işbirlikçi bir ekip arıyorum."
+    "body": "Bilkent Üniversitesi'nde Bilgisayar Teknolojisi ve Bilişim Sistemleri (CTIS) lisansını tamamlamak üzere olan bir full-stack geliştiriciyim. Bildiklerimin çoğu stajlardan, ders projelerinden ve kişisel projelerden geliyor; ihtiyaç oldukça yeni araçları öğreniyorum. Birlikte faydalı işler çıkarabileceğim bir ekip arıyorum."
   },
   "Experience": {
     "title": "Deneyim",
@@ -72,6 +74,44 @@
       "tags": ["Ar-Ge", "Malzeme"]
     }
   },
+  "Education": {
+    "title": "Eğitim",
+    "university": "Bilkent Üniversitesi",
+    "degree": "Bilgisayar Teknolojisi ve Bilişim Sistemleri (CTIS) Lisans",
+    "date": "2021 – Devam ediyor",
+    "summary": "Full-stack web geliştirme, mobil geliştirme, veritabanları, ağlar ve bulut bilişimini kapsıyor; son olarak CustomERP bitirme projesiyle tamamlandı.",
+    "programming": {
+      "title": "Programlama ve Algoritmalar",
+      "items": ["Programlamaya Giriş", "Ayrık Matematik", "Algoritmalar ve Veri Yapıları", "Nesne Yönelimli Programlama", "Bilgisayar Algoritmaları"]
+    },
+    "web": {
+      "title": "Web ve Mobil Geliştirme",
+      "items": ["Frontend Web Teknolojileri", "Backend Geliştirmeye Giriş", "İleri Web Teknolojileri", "Mobil Uygulama Geliştirme"]
+    },
+    "data": {
+      "title": "Veri, Sistemler ve Bulut",
+      "items": ["Veritabanı Yönetim Sistemleri ve Uygulamaları", "Uygulamalı Veri Analizi", "Veri Analizi (ANOVA, Regresyon)", "Bilgisayar Ağlarının Temelleri", "Bilgi Teknolojileri (Linux)", "Bulut Bilişim Temelleri"]
+    },
+    "engineering": {
+      "title": "Yazılım Mühendisliği ve Tasarım",
+      "items": ["Nesne Yönelimli Analiz ve Tasarım", "Yazılım Mühendisliğinin Esasları", "Bitirme Projesi I & II (CustomERP)"]
+    }
+  },
+  "CurrentlyLearning": {
+    "title": "Şu An Aldığım Dersler",
+    "intro": "Bu dönem aldığım dersler, ilerledikçe buraya ekleniyor.",
+    "badge": "Devam ediyor",
+    "ml": {
+      "code": "CTIS 471",
+      "title": "Introduction to Applied Machine Learning",
+      "description": "Denetimli ve denetimsiz öğrenme: doğrusal regresyon, karar ağaçları, destek vektör makineleri, yapay sinir ağları; kümeleme ve performans değerlendirmesi."
+    },
+    "security": {
+      "code": "CTIS 496",
+      "title": "Computer and Network Security",
+      "description": "Klasik ve modern kriptografi, PKI, taşıma katmanı ve kablosuz ağ güvenliği, güvenli programlama ilkeleri."
+    }
+  },
   "Skills": {
     "title": "Yetenekler",
     "languages": {
@@ -86,9 +126,17 @@
       "title": "Backend",
       "items": ["Node.js", "ASP.NET Core"]
     },
+    "mobile": {
+      "title": "Mobil",
+      "items": ["Android (Java/Kotlin)"]
+    },
     "database": {
       "title": "Veritabanı",
-      "items": ["MySQL", "MS Access"]
+      "items": ["MySQL", "MS Access", "Oracle PL/SQL"]
+    },
+    "cloud": {
+      "title": "Bulut ve Sistemler",
+      "items": ["Bulut Bilişimi Temelleri (AWS/Azure/GCP)", "Linux (Kabuk Betikleme)"]
     },
     "certificates": {
       "title": "Sertifikalar",
@@ -119,7 +167,7 @@
   },
   "Contact": {
     "title": "Birlikte çalışalım",
-    "body": "İşbirlikçi rollere ve anlamlı projelere açığım. Bana ulaşmanın en hızlı yolu e-posta.",
+    "body": "İşbirlikçi rollere ve ilgi çekici projelere açığım. Bana ulaşmanın en hızlı yolu e-posta.",
     "emailCta": "Merhaba de",
     "or": "ya da beni şurada bul"
   },

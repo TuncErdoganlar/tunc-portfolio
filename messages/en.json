@@ -8,6 +8,8 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
+    "education": "Education",
+    "current": "Now",
     "skills": "Skills",
     "hobbies": "Interests",
     "contact": "Contact",
@@ -25,7 +27,7 @@
   },
   "About": {
     "title": "About",
-    "body": "Full-stack developer with a solid grounding in web development. I like learning new technologies, and most of my experience so far comes from internships and personal projects. I'm looking for a collaborative team to build useful things with."
+    "body": "Full-stack developer finishing a B.S. in Information Systems and Technologies (CTIS) at Bilkent University. Most of what I know comes from internships, coursework, and personal projects, and I pick up new tools as projects need them. Looking for a team to build useful things with."
   },
   "Experience": {
     "title": "Experience",
@@ -72,6 +74,44 @@
       "tags": ["R&D", "Materials"]
     }
   },
+  "Education": {
+    "title": "Education",
+    "university": "Bilkent University",
+    "degree": "B.S. in Information Systems and Technologies (CTIS)",
+    "date": "2021 – Present",
+    "summary": "Covers full-stack web development, mobile development, databases, networks, and cloud, finishing with the CustomERP graduation project.",
+    "programming": {
+      "title": "Programming & Algorithms",
+      "items": ["Introduction to Programming", "Discrete Mathematics", "Algorithms & Data Structures", "Object-Oriented Programming", "Computer Algorithms"]
+    },
+    "web": {
+      "title": "Web & Mobile Development",
+      "items": ["Frontend Web Technologies", "Introduction to Backend Development", "Advanced Web Technologies", "Mobile Application Development"]
+    },
+    "data": {
+      "title": "Data, Systems & Cloud",
+      "items": ["Database Management Systems & Applications", "Applied Data Analysis", "Data Analysis (ANOVA, Regression)", "Fundamentals of Computer Networks", "Information Technologies (Linux)", "Cloud Computing Foundations"]
+    },
+    "engineering": {
+      "title": "Software Engineering & Design",
+      "items": ["Object-Oriented Analysis & Design", "Principles of Software Engineering", "Senior Project I & II (CustomERP)"]
+    }
+  },
+  "CurrentlyLearning": {
+    "title": "Currently Learning",
+    "intro": "This semester's coursework, added as I take it.",
+    "badge": "In progress",
+    "ml": {
+      "code": "CTIS 471",
+      "title": "Introduction to Applied Machine Learning",
+      "description": "Supervised and unsupervised learning: linear regression, decision trees, SVMs, and neural networks, plus clustering and performance evaluation."
+    },
+    "security": {
+      "code": "CTIS 496",
+      "title": "Computer and Network Security",
+      "description": "Classical and modern cryptography, PKI, transport-level and wireless network security, and secure programming principles."
+    }
+  },
   "Skills": {
     "title": "Skills",
     "languages": {
@@ -86,9 +126,17 @@
       "title": "Backend",
       "items": ["Node.js", "ASP.NET Core"]
     },
+    "mobile": {
+      "title": "Mobile",
+      "items": ["Android (Java/Kotlin)"]
+    },
     "database": {
       "title": "Database",
-      "items": ["MySQL", "MS Access"]
+      "items": ["MySQL", "MS Access", "Oracle PL/SQL"]
+    },
+    "cloud": {
+      "title": "Cloud & Systems",
+      "items": ["Cloud Fundamentals (AWS/Azure/GCP)", "Linux (Shell Scripting)"]
     },
     "certificates": {
       "title": "Certificates",
@@ -119,7 +167,7 @@
   },
   "Contact": {
     "title": "Let's work together",
-    "body": "I'm open to collaborative roles and meaningful projects. The fastest way to reach me is by email.",
+    "body": "I'm open to collaborative roles and interesting projects. Email's the fastest way to reach me.",
     "emailCta": "Say hello",
     "or": "or find me on"
   },

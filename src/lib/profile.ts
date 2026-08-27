@@ -12,7 +12,7 @@ export const PROFILE = {
   cv: '/cv.pdf'
 } as const;
 
-export type Accent = 'primary' | 'coral' | 'teal' | 'amber';
+export type Accent = 'primary' | 'coral' | 'teal' | 'amber' | 'violet';
 
 // Accent rotasyonu: primary → coral → teal → amber (CLAUDE.md)
 export const ACCENT_ORDER: readonly Accent[] = ['primary', 'coral', 'teal', 'amber'];
@@ -29,5 +29,7 @@ export const accentClasses: Record<
   primary: {text: 'text-primary', bg: 'bg-primary', hoverBorder: 'hover:border-primary'},
   coral: {text: 'text-coral', bg: 'bg-coral', hoverBorder: 'hover:border-coral'},
   teal: {text: 'text-teal', bg: 'bg-teal', hoverBorder: 'hover:border-teal'},
-  amber: {text: 'text-amber', bg: 'bg-amber', hoverBorder: 'hover:border-amber'}
+  amber: {text: 'text-amber', bg: 'bg-amber', hoverBorder: 'hover:border-amber'},
+  // Rotasyona dahil değil — sadece "Currently Learning" bölümünün sabit vurgu rengi (CLAUDE.md güncellemesi bkz.)
+  violet: {text: 'text-violet', bg: 'bg-violet', hoverBorder: 'hover:border-violet'}
 };

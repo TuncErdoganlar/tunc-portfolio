@@ -9,7 +9,7 @@ export default function Hobbies() {
   return (
     <section id="hobbies">
       <div className="mx-auto max-w-[1120px] px-5 py-20 md:px-12 md:py-28">
-        <SectionHeading index="05" title={t('title')} />
+        <SectionHeading index="07" title={t('title')} />
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           {/* Öne çıkan: yelken */}

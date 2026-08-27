@@ -59,3 +59,7 @@ If unset, it falls back to `https://tunc-erdoganlar.vercel.app`. Set the real va
 2. In Vercel, **Add New → Project** and import the GitHub repo. Framework preset: **Next.js** (auto-detected; defaults are correct).
 3. Add the environment variable `NEXT_PUBLIC_SITE_URL` (your production URL).
 4. Deploy. Future pushes to the default branch redeploy automatically.
+
+## License
+
+MIT — see [LICENSE](./LICENSE).

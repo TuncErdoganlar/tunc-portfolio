@@ -10,6 +10,7 @@
   --coral: #F97362;     /* sıcak pop */
   --teal: #0EA5A0;
   --amber: #F59E0B;
+  --violet: #8B5CF6;    /* yenilik/innovation vurgusu — sadece "Currently Learning" bölümünde */
   --line: rgba(22, 21, 26, 0.1); /* ince ayraçlar */
 }
 
@@ -23,6 +24,7 @@
   --color-coral: var(--coral);
   --color-teal: var(--teal);
   --color-amber: var(--amber);
+  --color-violet: var(--violet);
   --color-line: var(--line);
 
   --font-display: var(--font-clash-display);
