@@ -103,7 +103,6 @@ Accent rotasyonu: kartlar/chip'ler sırayla `primary → coral → teal → ambe
 ## Kişi & içerik verileri
 
 **Tunç Erdoğanlar** — Full-stack Developer
-- Tel: +90 546 872 3094
 - E-posta: tunc.erdoganlar@hotmail.com
 - GitHub: https://github.com/TuncErdoganlar
 - LinkedIn: https://www.linkedin.com/in/tunç-erdoğanlar-a71312222/
