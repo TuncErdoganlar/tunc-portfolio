@@ -31,7 +31,7 @@ src/
 ├── app/[locale]/      # localized layout + page (root layout lives here)
 ├── app/sitemap.ts     # /sitemap.xml (both locales + hreflang)
 ├── app/robots.ts      # /robots.txt
-├── components/        # Hero, About, Experience, Projects, Skills, Contact, Footer, …
+├── components/        # Hero, About, Experience, Projects, Education, CurrentlyLearning, Skills, Hobbies, Contact, Footer, …
 ├── i18n/              # next-intl routing + request config
 ├── lib/profile.ts     # contact links, accent rotation, SITE_URL
 └── proxy.ts           # next-intl middleware (Next 16 "proxy" convention)
@@ -44,6 +44,7 @@ public/                # cv.pdf, og.png
 - **Text**: edit `messages/en.json` and `messages/tr.json` (keep keys in sync).
 - **CV**: replace `public/cv.pdf` with an updated export (the "Download CV" button links to `/cv.pdf`).
 - **Projects / experience / skills**: update the matching namespace in both message files.
+- **Coursework**: `Education` (finished courses, grouped by category) and `CurrentlyLearning` (this semester's courses) both pull from `messages/*.json` — update those namespaces as courses are completed each semester.
 
 ## Environment
 
