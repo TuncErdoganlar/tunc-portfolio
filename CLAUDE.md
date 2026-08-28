@@ -106,7 +106,7 @@ Accent rotasyonu: kartlar/chip'ler sırayla `primary → coral → teal → ambe
 - E-posta: tunc.erdoganlar@hotmail.com
 - GitHub: https://github.com/TuncErdoganlar
 - LinkedIn: https://www.linkedin.com/in/tunç-erdoğanlar-a71312222/
-- Konum: İzmir, Türkiye
+- Konum: Ankara, Türkiye
 
 **Özet (EN):** Full-stack developer with a solid understanding of web development and a passion for learning new technologies. Hands-on experience from personal projects and internships, seeking a collaborative environment to contribute to meaningful work.
 

@@ -89,7 +89,7 @@ export default async function LocaleLayout({
     sameAs: [PROFILE.github, PROFILE.linkedin],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'İzmir',
+      addressLocality: 'Ankara',
       addressCountry: 'TR'
     }
   };

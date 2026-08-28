@@ -1,7 +1,7 @@
 {
   "Meta": {
     "title": "Tunç Erdoğanlar, Full-stack Developer",
-    "description": "İzmir, Türkiye'de yaşayan full-stack geliştirici. Web ve mobil uygulamalar geliştiriyorum; deneyimim stajlardan ve kişisel projelerden geliyor.",
+    "description": "Ankara, Türkiye'de yaşayan full-stack geliştirici. Web ve mobil uygulamalar geliştiriyorum; deneyimim stajlardan ve kişisel projelerden geliyor.",
     "ogAlt": "Tunç Erdoğanlar, Full-stack Developer"
   },
   "Nav": {
@@ -21,7 +21,7 @@
   "Hero": {
     "role": "Full-stack Developer",
     "tagline": "Web ve mobil uygulamaları baştan sona geliştiriyorum, yol boyunca yeni araçlar öğrenmekten de keyif alıyorum.",
-    "location": "İzmir, Türkiye",
+    "location": "Ankara, Türkiye",
     "downloadCv": "CV indir",
     "emailMe": "E-posta gönder"
   },
